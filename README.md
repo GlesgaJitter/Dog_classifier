@@ -42,3 +42,5 @@ On top of this, we apply a global average pooling layer in our architecture.
 I have discussed the results in my Medium blog, and have indicated areas of success, limitations and possible improvements.
 
 # Acknowledgements
+
+Many thanks go to the Udacity team for their help and guidance, and for their great programme which has been critical to building my skills and understanding of Data Science, machine learning, and program documentation. 
