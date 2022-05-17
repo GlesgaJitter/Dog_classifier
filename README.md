@@ -27,3 +27,18 @@ In this notebook, we perform the following steps:
 - Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
 - Step 6: Write an Algorithm to take an image path as an argument, and predict the dog's breed (if present)
 - Step 7: Test Your Algorithm (tests are performed on some human and dog images, with some discussion on the results)
+
+# The CNN
+
+To build the CNN, we use ResNet-50 bottleneck features. 
+This classifier is in the public domain and has been widely used with success in image recognition and classification. 
+It performs well in this application. 
+
+As it uses 50 layers (48 convolutional layers, 1 max pooling layer and 1 average pooling layer), this is a very deep learning algorithm. 
+On top of this, we apply a global average pooling layer in our architecture. 
+
+# Results
+
+I have discussed the results in my Medium blog, and have indicated areas of success, limitations and possible improvements.
+
+# Acknowledgements
